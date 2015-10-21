@@ -1,0 +1,101 @@
+/* CNC Search Plugin CSS */
+
+#cncmain { 
+	width:auto;
+	clear:both;
+	border:0px solid #000;
+	padding:10px; 
+	font-size: 12px !important;
+	font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+
+#cnc_search_form select, #cnc_search_form input {
+    height: 30px !important;
+    line-height: 30px !important;
+    padding: 0px 6px !important;
+}
+.cnc_headtitle { color: #000; font-size: 1em !important; clear: both; }
+
+.cnc_location_details { color: #000; font-size: 1em !important; }
+
+#cnc_search_form .twothree { width: 23%; float: left; margin-right: 30px; }
+#cnc_search_form .half { width: 40%; float: left; margin-right: 30px; }
+#cnc_search_form .sevenfive { width: 58%; float: left; margin-right: 0px; }
+#cnc_search_form .eightyfefth { max-width: 85%; float: left; margin-right: 30px; }
+
+.cnc_sub_class { color: #000; font-size: 1em !important; clear: both; max-width: 85%; }
+
+.cns_search { 
+	clear: both;
+	float: right;
+	background-color: #193966; 
+	color: #ffffff; 
+	border-color: #071744;
+	padding: 12px 16px 10px; 
+	font-size: 12px; 
+	min-width: 90px; 
+    border-radius: 3px;
+    font-size: 12px !important;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin: 0px 30px;
+    line-height: 1.2em;
+    position: relative;
+    font-weight: normal;
+    text-align: center;
+}
+
+.cnc_subtitle { color: #000; font-size: 1em !important; font-weight: normal !important; float: left; width: 30%; }
+.cnc_sub_class input, .cnc_sub_class select { float: left; width: 70% !important; }
+
+table, th, td {
+     border: 1px solid #000;
+}
+
+.required { color: #e52828 !important; padding: 2px 5px; font-size: 18px; }
+
+#cnc-main { font-size: 12px !important; }
+#cnc-main th, td { font-size: 12px !important; }
+
+
+/* POP UP : Details of Physician / Specialist */
+.ui-widget { font-size: 14px !important; font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; }
+
+
+  #overlay_form{
+  position: absolute;
+  border: 5px solid gray;
+  padding: 2px 24px 2px 2px;
+  background: white;
+  left:263px;
+  top:145px;
+  /*width: 321px;*/
+  /*height: 400px;*/
+  
+  }
+  #pop{
+  display: block;
+  border: 1px solid gray;
+  width: 65px;
+  text-align: center;
+  padding: 6px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 auto;
+  }
+
+
+@media (min-width: 1200px){
+  .row {
+      margin-left: 30px !important;
+  }
+}
+
+
+#myMap {
+   height: 360px;
+   width: 900px;
+}
